@@ -13,5 +13,5 @@ Flask API stuff : This folder contains the code written for the three different 
 
 Jupyter Notebooks: This folder contains all the Jupyter Notebooks used for the different purposes for the project.  
 
-Shiny APP: R shiny code used for clinically relevant autocomplete. 
+Shiny APP: R shiny used to design a prototype autocomplete input field.
 
