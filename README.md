@@ -1,5 +1,9 @@
 # Autocomplete_shiny
- Clinically relevant autocomplete using R shiny.
+ Clinically relevant predictive- autocomplete using R shiny.
+ 
+ Motivation of project:
+ Although autocomplete is already very widely used, it has a relatively high error rate in the medical domain due to not being specifically trained and optimized on medical datasets. As an example, standard autocomplete implemented by Google and other search engines does not support ICD-10 and Human phenotype ontology terms and codes. 
+ Additionally, autocomplete in the medical domain is useful because it ensures that a user does not need to type an entire medical term from memory which can be prone to misspellings and other typographical errors. 
  
  Information on the Folders:
  
@@ -7,7 +11,7 @@ Datasets: This folder shows the ICD10 and HPO databases used. The MIMICIII datab
  
 Flask API stuff : This folder contains the code written for the three different Flask APIs for the three different autocompletion cases (for single word autocompletion, bigrams (two consecutive words) and entire queries. It also imports the Tries search algorithm written in Python. 
 
-Jupyter Notebooks: This folder contains all the Jupyter Notebooks used for the different purposes for the project. 
+Jupyter Notebooks: This folder contains all the Jupyter Notebooks used for the different purposes for the project.  
 
 Shiny APP: R shiny code used for clinically relevant autocomplete. 
 
