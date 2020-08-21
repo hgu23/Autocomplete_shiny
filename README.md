@@ -3,7 +3,7 @@
  
  Motivation of project:
  Although autocomplete is already very widely used, it has a relatively high error rate in the medical domain due to not being specifically trained and optimized on medical datasets. As an example, standard autocomplete implemented by Google and other search engines does not support ICD-10 and Human phenotype ontology terms and codes. 
- Additionally, autocomplete in the medical domain is useful because it ensures that a user does not need to type an entire medical term from memory which can be prone to misspellings and other typographical errors. 
+Autocomplete is useful in the medical domain because it ensures that a user does not need to type an entire complex medical term from memory which can be prone to misspellings and other typographical errors. 
  
  Information on the Folders:
  
